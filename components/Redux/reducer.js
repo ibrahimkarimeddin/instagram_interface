@@ -7,8 +7,7 @@ export const cartslice = createSlice({
      addChat : (state,action) =>{
         state.a=[]
         state.a.push(action.payload)
-        console.log(state.a)
-        console.log(action.payload)
+       
        
      }
 
